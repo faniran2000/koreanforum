@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Custom */
+.main-banner img { width: 100%; text-align: center; margin: 0 auto; margin-top: 10px; }
+@media all and (max-width:520px) {
+	.pc-simpson { display: none; }
+}
+@media all and (min-width:519px) {
+	.mobile-simpson { display: none; }
+}

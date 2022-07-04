@@ -1,0 +1,141 @@
+﻿.blue-side-quick-toolbar {
+    width: 46px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px 0 0 3px;
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .blue-side-quick-toolbar {
+        right: 17px;
+    }
+}
+
+.blue-side-quick-toolbar .blue-side-quick-toolbar__item {
+    margin: 0;
+    padding: 5px;
+    text-align: center
+}
+
+.blue-side-quick-toolbar .blue-btn-label {
+    position: absolute;
+    right: 3px;
+    margin-top: -12px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 17px !important;
+    font-size: 11px;
+    text-align: center;
+    padding-right: 1px;
+    letter-spacing: -1px;
+}
+
+.blue-side-quick-toolbar .blue-side-quick-toolbar__item > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    transition: background .3s ease
+}
+
+.blue-side-quick-toolbar .blue-side-quick-toolbar__item > a > i {
+    transition: color .3s ease;
+    font-size: 1.3rem
+}
+
+#sidebar-box .blue-wing-close {
+    background: #fff;
+    font-size: 18px;
+    font-weight: 300 !important;
+    width: 36px;
+    height: 50px;
+    line-height: 50px !important;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    cursor: pointer;
+}
+
+#sidebar-box .blue-wing-icon {
+    width: 34px;
+}
+
+#sidebar-box .blue-wing-icon a {
+    display: block;
+}
+
+#sidebar-box .blue-wing-btn {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px !important;
+}
+
+#sidebar-box .blue-wing-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    line-height: 18px !important;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+#desktop-nav .blue-btn-label {
+    position: absolute;
+    left: 3px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 16px !important;
+    font-size: 11px;
+    text-align: center;
+    padding-right: 1px;
+    letter-spacing: -1px;
+}
+
+#sidebar-box .blue-wing-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px !important;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.scroll-up {
+	background: rgba(219, 0, 0, 0.8);
+	border-radius: 15%;
+}
+
+.scroll-up:hover {
+	background: #a50000;
+	border-radius: 15%;
+}
+
+@media (max-width:480px) {
+    #sidebar-box .blue-wing-icon {
+        width: 34px;
+        margin-left: 2px;
+    }
+}
